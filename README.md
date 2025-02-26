@@ -37,7 +37,7 @@ One of the primary goals of this project was to use semantic HTML for all elemen
 
 Styling the lists was somewhat challenging. The bullet points are normally placed outside the left margin of the `<ul>` or `<ol>` element. Setting the `list-style-position` property to `inside` would solve this problem, except this causes multi-line text to wrap around the bullet. I decided to add some left-side padding instead.
 
-Regarding the top image, I decided to leave the alt text blank. It's unclear whether this image should be considered purely decoratave, but it doesn't seem to provide any additional information. If it were not immediately followed by the heading "Simple Omelette Recipe", plus the additional text describing the omelette, then I would have provided some alt text, such as "Omelette with a variety of fillings".
+Regarding the top image, I considered leaving the alt text blank, but it's unclear if this image should be considered purely decoratave, and after some slight html layout changes it wouldn't benifit from the paragraph description of the recipe. (Although, it's possible that the h1 heading still provides enough information to the user to justify removing the alt text.) Ultimately, I decided to include the alt text to be safe.
 
 ### Continued development
 
